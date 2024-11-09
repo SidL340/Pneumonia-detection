@@ -1,9 +1,9 @@
 # Pneumonia-detection
-Pneumonia Detection Using Deep Learning
+#Pneumonia Detection Using Deep Learning
 
 
-Table of Contents
-Project Overview
+# Table of Contents
+##Project Overview
 Problem Statement
 Dataset
 Methodology
@@ -16,22 +16,22 @@ Future Work
 Contributing
 License
 Acknowledgments
-Project Overview
+##Project Overview
 Pneumonia is a severe respiratory infection affecting millions of people worldwide. Early and accurate diagnosis of pneumonia is crucial for effective treatment and patient outcomes. This project leverages deep learning to create an automated pneumonia detection system using Convolutional Neural Networks (CNNs) to analyze chest X-ray images. By training a CNN on labeled images, this model is capable of classifying X-rays into two categories: normal (healthy) and pneumonia-affected.
 
 This repository contains the code, dataset handling, model training, evaluation, and a Python app for deploying the model to make predictions on new X-ray images.
 
-Problem Statement
+##Problem Statement
 Pneumonia remains a major global health issue, with millions of cases annually and significant mortality rates. Diagnosing pneumonia through chest X-rays can be challenging due to subtle signs that may be difficult for the human eye to detect. Automating the detection process using deep learning can improve diagnostic accuracy and provide a valuable tool to assist healthcare professionals in identifying pneumonia cases efficiently and accurately.
 
-Dataset
+##Dataset
 The dataset used in this project consists of chest X-ray images labeled as either normal (healthy) or pneumonia-affected. The images are resized to 224x224 pixels for input into the CNN model. We perform data preprocessing and data augmentation (such as flipping and rotation) to improve the model’s performance and robustness.
 
 The dataset can be accessed on Kaggle or from any public X-ray dataset source.
 
 Link to Dataset: Chest X-ray Pneumonia Dataset on Kaggle
 
-Methodology
+##Methodology
 This project employs a Convolutional Neural Network (CNN) for image classification. The methodology consists of the following key steps:
 
 Data Preprocessing: Resizing images, normalizing pixel values, and applying data augmentation.
